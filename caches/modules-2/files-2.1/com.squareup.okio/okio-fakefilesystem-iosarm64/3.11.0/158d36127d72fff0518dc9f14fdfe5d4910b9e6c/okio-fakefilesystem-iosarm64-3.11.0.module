@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../okio-fakefilesystem/3.11.0/okio-fakefilesystem-3.11.0.module",
+    "group": "com.squareup.okio",
+    "module": "okio-fakefilesystem",
+    "version": "3.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okio-fakefilesystem-iosArm64Main-3.11.0.klib",
+          "url": "okio-fakefilesystem-iosarm64-3.11.0.klib",
+          "size": 41458,
+          "sha512": "d499c4ff86e9ab7f7637c39af7a26765df96e4be2b90ac47e2332b9c6b71da26bb71ebe95327b66038062b71dcced4abf8776b30a4602d2bd505836871341318",
+          "sha256": "b9fd5a2b96250b12e86af03a9a9ff52e93b93141b4b7e5f482d558d2883435ad",
+          "sha1": "94b307a3e6cf33c2510461bead84dde06fbf3c5b",
+          "md5": "c530b043d21f1d8e3d597b248f53469f"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "okio-fakefilesystem-iosarm64-3.11.0-sources.jar",
+          "url": "okio-fakefilesystem-iosarm64-3.11.0-sources.jar",
+          "size": 8413,
+          "sha512": "cb4fb94a52c905aaa9ad083dae916532bca1d90e410a736c8cd0dfcf277a4508bb05c4f790a844e8f937c18d19853c4dc7adb967e18cb0d3ff97756bd84f41a5",
+          "sha256": "72b36ee3c7267a6cd7373d639a3ae680f2cca2e1f93b23562f437941e6acfa94",
+          "sha1": "25aaa8508f23399f7ee242c6c2a9be1ec32711a5",
+          "md5": "81cea84046945f3088b910c115edef1e"
+        }
+      ]
+    },
+    {
+      "name": "iosArm64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "com.squareup.okio",
+          "module": "okio",
+          "version": {
+            "requires": "3.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okio-fakefilesystem-iosarm64-3.11.0-metadata.jar",
+          "url": "okio-fakefilesystem-iosarm64-3.11.0-metadata.jar",
+          "size": 261,
+          "sha512": "1487e5a20c9e4d74f298e07c42e96a61be11b7a768c3fbc199ee138cd68e1fc2267d1cfe3f11f288acc05df755315344d052cc5f6f751f126ab4fe1caa5125ea",
+          "sha256": "c6deada2fac53b8ea6523dbda77597b128006674616f140f04df23264c6d1aa3",
+          "sha1": "2ad14aed781c4a73ed4dbb421966d408a0a06686",
+          "md5": "f43436d6bec321290f6af228ad602604"
+        }
+      ]
+    }
+  ]
+}

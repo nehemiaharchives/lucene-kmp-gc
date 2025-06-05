@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-logging/7.0.7/kotlin-logging-7.0.7.module",
+    "group": "io.github.oshai",
+    "module": "kotlin-logging",
+    "version": "7.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging-debug.aar",
+          "url": "kotlin-logging-android-debug-7.0.7.aar",
+          "size": 57759,
+          "sha512": "27c5afc941e6f7cc9d53d1ee347308b1c859d456c3229b9a9d1f6538947dd5cc173554f0c3e1dc1c22a1adb828c6517b4db8791d6af9488830e43e20024149e6",
+          "sha256": "49097509e6db91ae459c187814d1a00ded6090f9be8e45c49ebe3ab6ae0577b2",
+          "sha1": "93fbf62d4a46173ac20482978a17de52a4dea7f5",
+          "md5": "72ca5ad9896c76923ce2168b7ef819c7"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging-debug.aar",
+          "url": "kotlin-logging-android-debug-7.0.7.aar",
+          "size": 57759,
+          "sha512": "27c5afc941e6f7cc9d53d1ee347308b1c859d456c3229b9a9d1f6538947dd5cc173554f0c3e1dc1c22a1adb828c6517b4db8791d6af9488830e43e20024149e6",
+          "sha256": "49097509e6db91ae459c187814d1a00ded6090f9be8e45c49ebe3ab6ae0577b2",
+          "sha1": "93fbf62d4a46173ac20482978a17de52a4dea7f5",
+          "md5": "72ca5ad9896c76923ce2168b7ef819c7"
+        }
+      ]
+    },
+    {
+      "name": "debugSourcesElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "kotlin-logging-android-debug-7.0.7-sources.jar",
+          "url": "kotlin-logging-android-debug-7.0.7-sources.jar",
+          "size": 22691,
+          "sha512": "a20daf37bd2512e560e75cfd07080ddb7b0ef5d50690a44536af467f843431531094dbe248be5019581d87fde7ce5312c0efdd703bf9eaa8a7abc8eab539e30d",
+          "sha256": "7970b8298f51ed9c08389b210309b5f1996510234b3213385c5ef8492aadf22c",
+          "sha1": "af672b82e3122c3afb4b81bc21122d61f566787f",
+          "md5": "c8df53d2c524b349c8cff31016a2396c"
+        }
+      ]
+    }
+  ]
+}

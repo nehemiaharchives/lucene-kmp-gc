@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../okio/3.11.0/okio-3.11.0.module",
+    "group": "com.squareup.okio",
+    "module": "okio",
+    "version": "3.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.13"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "okio-linuxX64Main-3.11.0.klib",
+          "url": "okio-linuxx64-3.11.0.klib",
+          "size": 477304,
+          "sha512": "801e3164ff5b13569d737cac3b91a87223ddc8de9fee1ccef1b3e2d00e77b289a63ec78642cd5d5d62470caf8e5afd804cd470af0d28701882d85dc9aef0c53a",
+          "sha256": "68efa6a8aa6a57fa844f18cf4fe87a1e6826e9998d33c55670a7deb31015b085",
+          "sha1": "2ba8a698a08846ea2b80c61dbc374c7363ded062",
+          "md5": "d77eb384a7a81746d0006f897a468092"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "okio-linuxx64-3.11.0-sources.jar",
+          "url": "okio-linuxx64-3.11.0-sources.jar",
+          "size": 169844,
+          "sha512": "d4c638e95be7ab8ec45fcdd0fb5f3be51404c10efe8c224667cc47d252fbf1d19fa4c1c6929ae41bc438d840320922cfb06dbf0ae3252c66544b5ff5ebaa5d2c",
+          "sha256": "7e92c0ddddd04b65cf24c061e5c4a19565487f5350bd5ba1104bf7421e360392",
+          "sha1": "6ae0214bdbc86d66c3310671babb9573a5c6b86b",
+          "md5": "fae6d973ecb1317936bdfdc4851f65b2"
+        }
+      ]
+    }
+  ]
+}

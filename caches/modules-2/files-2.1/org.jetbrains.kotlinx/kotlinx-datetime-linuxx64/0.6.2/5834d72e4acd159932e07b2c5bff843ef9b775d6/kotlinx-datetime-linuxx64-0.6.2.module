@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlinx-datetime/0.6.2/kotlinx-datetime-0.6.2.module",
+    "group": "org.jetbrains.kotlinx",
+    "module": "kotlinx-datetime",
+    "version": "0.6.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.6.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlinx-datetime.klib",
+          "url": "kotlinx-datetime-linuxx64-0.6.2.klib",
+          "size": 532638,
+          "sha512": "b09b82e57f0250ebd4a448e33408af4880bc840644d280e3c8164f4d39bd9d5fbf7df6b0628983079e032d1b2ac5009628c4f4856d9978e41d2f47a53301a69a",
+          "sha256": "81d87eed2b7658dbca08e1758ab21d935221b08bd712b3859763619dd158d020",
+          "sha1": "521e189719c9b9848c9d9b8a6344b460682ad8dd",
+          "md5": "e556fb4816aa21fe557a581fa228487c"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlinx-datetime-linuxx64-0.6.2-sources.jar",
+          "url": "kotlinx-datetime-linuxx64-0.6.2-sources.jar",
+          "size": 143437,
+          "sha512": "ee215c095d0f7968074d96a6b731d607552447235a28154d800f8f7c6899d77e56dbfc0b8c529b20bb40a93413d23e53f11e30ea956334c44d0bc635299b1c61",
+          "sha256": "a86ad23824a3c179d1ef592f2ee92d4377495f3e1f315fd550c9286b161f376f",
+          "sha1": "a0b665d1d07fcbc763ad5aae7f42e6372b8d90b1",
+          "md5": "044fb64b5e7bf47efa701dc36751b73a"
+        }
+      ]
+    }
+  ]
+}

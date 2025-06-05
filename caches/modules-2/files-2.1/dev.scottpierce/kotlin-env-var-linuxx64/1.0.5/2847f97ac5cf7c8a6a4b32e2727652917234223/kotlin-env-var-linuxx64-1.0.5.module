@@ -1,0 +1,73 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-env-var/1.0.5/kotlin-env-var-1.0.5.module",
+    "group": "dev.scottpierce",
+    "module": "kotlin-env-var",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-env-var-linuxX64Main.klib",
+          "url": "kotlin-env-var-linuxx64-1.0.5.klib",
+          "size": 7011,
+          "sha512": "8d50dd0f8ea18ab6e83f776fd7982ff4f9319d5ce5d90c4445ea97e5579287aec0c78b38c7cdbd395bdaab21a83f8b6d47219eebec27f1da7532968b1859a26f",
+          "sha256": "cc0cca95fb70daf840cb619717c96e7887ff7b4071dd55d550614229f883d334",
+          "sha1": "fa12879033827aa3e9e1b19f38e83a77a736a9e8",
+          "md5": "e08b294e67a7ef7fe460f5b9ae077580"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlin-env-var-linuxx64-sources.jar",
+          "url": "kotlin-env-var-linuxx64-1.0.5-sources.jar",
+          "size": 2492,
+          "sha512": "f37220ce1f987dad2de6299dddc361ce065e67ceb4c4378e06baff5e33b87dfa4b51159cbfe6cbcfee57f5ec035e254b8d836d444c661935a9f28703a5c370c6",
+          "sha256": "9d89c3d8bc10bcbc8fcc89713e1039bf0f091252f17a34eeb967cc949aa9c51f",
+          "sha1": "b4ad1972e7cea93710127d6bf6eb2887cf2f53c9",
+          "md5": "d4a0e09562109544c1b842d74730559e"
+        }
+      ]
+    }
+  ]
+}

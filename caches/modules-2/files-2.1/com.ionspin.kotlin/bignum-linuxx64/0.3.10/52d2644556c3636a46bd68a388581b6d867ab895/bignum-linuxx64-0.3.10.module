@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../bignum/0.3.10/bignum-0.3.10.module",
+    "group": "com.ionspin.kotlin",
+    "module": "bignum",
+    "version": "0.3.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "linuxX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bignum.klib",
+          "url": "bignum-linuxx64-0.3.10.klib",
+          "size": 439359,
+          "sha512": "d55de31d3f7fa1e70216d6c3dbdca6983fef8aea6ddbcf409d0d5df9a77cbc8d7dbbc81f772b0686173bbed3737f1a3e42ac24801e1e0cbfa34e64924fdf26de",
+          "sha256": "c2bbdde1370838ae12fa806317826b2ac65d181f29189af7226fc3377dbaf1eb",
+          "sha1": "e1681fc99299f14aee3ec70e2aff6578d9d0e401",
+          "md5": "e4ab73c08597a62420e196abbebdb12d"
+        }
+      ]
+    },
+    {
+      "name": "linuxX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "linux_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "bignum-linuxx64-0.3.10-sources.jar",
+          "url": "bignum-linuxx64-0.3.10-sources.jar",
+          "size": 89522,
+          "sha512": "d5b645ea708b1a1007c5f6e0deed8570593ab6bc183b90c6389613ffa3487af947a302daf05d85255e72ae969626a135b28628800a66a481fd8990a767918e00",
+          "sha256": "c2a57749b9c1301b402a0757fe893518e8857c554c919248e0a28ee9b15adac7",
+          "sha1": "2bcc541dc0cc3b14582d666237fc98bae2ac5a38",
+          "md5": "c7e21641904a7ef92888aae5a1f45407"
+        }
+      ]
+    }
+  ]
+}

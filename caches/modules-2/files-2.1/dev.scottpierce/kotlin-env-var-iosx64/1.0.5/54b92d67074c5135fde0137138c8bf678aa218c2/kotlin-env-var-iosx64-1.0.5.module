@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-env-var/1.0.5/kotlin-env-var-1.0.5.module",
+    "group": "dev.scottpierce",
+    "module": "kotlin-env-var",
+    "version": "1.0.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosX64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-env-var-iosX64Main.klib",
+          "url": "kotlin-env-var-iosx64-1.0.5.klib",
+          "size": 6991,
+          "sha512": "366da69f64127f85c0f32328db667a678b03d4d7eb015f0b8d0718ef14db7932ef5928b48642d2e6342c9adc83a68e4a026e2e94f6d7ed653c157da638b543cb",
+          "sha256": "1cbbd839da64d5a8c66857a0478043489a3c91e5aedba619efed859cadf0272f",
+          "sha1": "b26afffc6dba7fbb0e37bc65dae2a436fbc80a44",
+          "md5": "af3f6fe7c586f8fac9db4f720c75b835"
+        }
+      ]
+    },
+    {
+      "name": "iosX64SourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "files": [
+        {
+          "name": "kotlin-env-var-iosx64-sources.jar",
+          "url": "kotlin-env-var-iosx64-1.0.5-sources.jar",
+          "size": 2492,
+          "sha512": "f37220ce1f987dad2de6299dddc361ce065e67ceb4c4378e06baff5e33b87dfa4b51159cbfe6cbcfee57f5ec035e254b8d836d444c661935a9f28703a5c370c6",
+          "sha256": "9d89c3d8bc10bcbc8fcc89713e1039bf0f091252f17a34eeb967cc949aa9c51f",
+          "sha1": "b4ad1972e7cea93710127d6bf6eb2887cf2f53c9",
+          "md5": "d4a0e09562109544c1b842d74730559e"
+        }
+      ]
+    },
+    {
+      "name": "iosX64MetadataElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-metadata",
+        "org.jetbrains.kotlin.native.target": "ios_x64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-env-var-iosx64-metadata.jar",
+          "url": "kotlin-env-var-iosx64-1.0.5-metadata.jar",
+          "size": 261,
+          "sha512": "cdcb4b21568667180adfc0a993ac4af6d3670cdd9e40285540af7c46939f0a92e043d8b47976628da70c626ad8763bc9912bd7afd1436107bd016e443264b947",
+          "sha256": "00819b3347166f7c6d1166f437896788b5036feefc22bd9dc740d5b7900e958f",
+          "sha1": "0f19b9a9439706f3031b8f00ce2aa6546a1c29f2",
+          "md5": "c5cc30690712f10ba3a5384c0df45559"
+        }
+      ]
+    }
+  ]
+}

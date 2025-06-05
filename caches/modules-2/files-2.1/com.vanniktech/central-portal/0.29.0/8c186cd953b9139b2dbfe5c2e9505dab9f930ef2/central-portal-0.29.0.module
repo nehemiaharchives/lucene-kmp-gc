@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.vanniktech",
+    "module": "central-portal",
+    "version": "0.29.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-portal-0.29.0.jar",
+          "url": "central-portal-0.29.0.jar",
+          "size": 40707,
+          "sha512": "b265b6ef1e32da0ea04c2ad06dd3afeebb8be1d5c6acec0db83ede9450d201aca107963aa203138f4350b1587f98e19c62baf10dd607cfdec96ce8d83ff1ee7a",
+          "sha256": "cd63c8a1438bbb9c5d8c36dd4d093b571ee31d25b3485a494fcb9c3b08ed8064",
+          "sha1": "6e1ea9564f398354f90606901a7d4becdf6ec96a",
+          "md5": "cc022247215c3f56635b5ce0c921b009"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.15.1"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-scalars",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "central-portal-0.29.0.jar",
+          "url": "central-portal-0.29.0.jar",
+          "size": 40707,
+          "sha512": "b265b6ef1e32da0ea04c2ad06dd3afeebb8be1d5c6acec0db83ede9450d201aca107963aa203138f4350b1587f98e19c62baf10dd607cfdec96ce8d83ff1ee7a",
+          "sha256": "cd63c8a1438bbb9c5d8c36dd4d093b571ee31d25b3485a494fcb9c3b08ed8064",
+          "sha1": "6e1ea9564f398354f90606901a7d4becdf6ec96a",
+          "md5": "cc022247215c3f56635b5ce0c921b009"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "central-portal-0.29.0-sources.jar",
+          "url": "central-portal-0.29.0-sources.jar",
+          "size": 4114,
+          "sha512": "ec85e63afc88b51faba0fedfa7b184f15589dc746f686d9d509481cfc48fa5542565329f84f25fae3b4253808511e18ece92e654c2923385925a1cf2423b4034",
+          "sha256": "dcf69551586f275a591474ba009ad253c211d2b938aed3ecfd21f58ffe227019",
+          "sha1": "0556fa060e8ece07c795595f62615dc018c21c26",
+          "md5": "43c248cb4d13c47e629499b4dac68bf6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../kotlin-logging/7.0.7/kotlin-logging-7.0.7.module",
+    "group": "io.github.oshai",
+    "module": "kotlin-logging",
+    "version": "7.0.7",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging-release.aar",
+          "url": "kotlin-logging-android-7.0.7.aar",
+          "size": 53500,
+          "sha512": "0253cfb7900743a853abe4dde3bd7fdb2f95d505922c990f172c04f4c2e6b1c34ce603fe8bd9d0789990d22870135cc1de1ef7c344f3359f05deb909a2418eba",
+          "sha256": "c2fe133389fc237572bf6db72d9e4d3058381fe381a5ce1feaa78cda01f8776a",
+          "sha1": "04829bc812b338a9734ba69f374c5cb59f5c5a6f",
+          "md5": "2701a369494c6283924901773821f4c4"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.20"
+          },
+          "excludes": [
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-stdlib-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-common"
+            },
+            {
+              "group": "org.jetbrains.kotlin",
+              "module": "kotlin-test-annotations-common"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "kotlin-logging-release.aar",
+          "url": "kotlin-logging-android-7.0.7.aar",
+          "size": 53500,
+          "sha512": "0253cfb7900743a853abe4dde3bd7fdb2f95d505922c990f172c04f4c2e6b1c34ce603fe8bd9d0789990d22870135cc1de1ef7c344f3359f05deb909a2418eba",
+          "sha256": "c2fe133389fc237572bf6db72d9e4d3058381fe381a5ce1feaa78cda01f8776a",
+          "sha1": "04829bc812b338a9734ba69f374c5cb59f5c5a6f",
+          "md5": "2701a369494c6283924901773821f4c4"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "kotlin-logging-android-7.0.7-sources.jar",
+          "url": "kotlin-logging-android-7.0.7-sources.jar",
+          "size": 22691,
+          "sha512": "a20daf37bd2512e560e75cfd07080ddb7b0ef5d50690a44536af467f843431531094dbe248be5019581d87fde7ce5312c0efdd703bf9eaa8a7abc8eab539e30d",
+          "sha256": "7970b8298f51ed9c08389b210309b5f1996510234b3213385c5ef8492aadf22c",
+          "sha1": "af672b82e3122c3afb4b81bc21122d61f566787f",
+          "md5": "c8df53d2c524b349c8cff31016a2396c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.jetbrains.intellij.deps</groupId>
+  <artifactId>intellij-coverage-agent</artifactId>
+  <version>1.0.765</version>
+  <name>Intellij Coverage Agent</name>
+  <description>Code coverage engine for JVM</description>
+  <url>https://github.com/JetBrains/intellij-coverage</url>
+  <licenses>
+    <license>
+      <name>Apache License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>JetBrains</id>
+      <name>JetBrains Team</name>
+      <organization>JetBrains</organization>
+      <organizationUrl>https://www.jetbrains.com</organizationUrl>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:JetBrains/intellij-coverage.git</connection>
+    <developerConnection>scm:git:ssh:github.com/JetBrains/intellij-coverage.git</developerConnection>
+    <url>https://github.com/JetBrains/intellij-coverage</url>
+  </scm>
+</project>

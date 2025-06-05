@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.kotlinx",
+    "module": "kover-jvm-agent",
+    "version": "0.9.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kover-jvm-agent-0.9.1.jar",
+          "url": "kover-jvm-agent-0.9.1.jar",
+          "size": 491960,
+          "sha512": "4b42b605c55a01425042437e7239bf9e45c4613c5d3380d3a919b78782d8a6d54b670afb21a26a7f25d97b4deb735f2c633765ab059bb5a7df41e8789594ba33",
+          "sha256": "8f23569a67277f61b3a7da4eca45d62808f8c03544272ea6e45390fd31a5e8e5",
+          "sha1": "301b91e31976ec1a4a81e0614c4c6b9451f65524",
+          "md5": "dc8d137b6c44f45af5924045d6d5bab3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 6,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kover-jvm-agent-0.9.1.jar",
+          "url": "kover-jvm-agent-0.9.1.jar",
+          "size": 491960,
+          "sha512": "4b42b605c55a01425042437e7239bf9e45c4613c5d3380d3a919b78782d8a6d54b670afb21a26a7f25d97b4deb735f2c633765ab059bb5a7df41e8789594ba33",
+          "sha256": "8f23569a67277f61b3a7da4eca45d62808f8c03544272ea6e45390fd31a5e8e5",
+          "sha1": "301b91e31976ec1a4a81e0614c4c6b9451f65524",
+          "md5": "dc8d137b6c44f45af5924045d6d5bab3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kover-jvm-agent-0.9.1-javadoc.jar",
+          "url": "kover-jvm-agent-0.9.1-javadoc.jar",
+          "size": 23791,
+          "sha512": "6026cc4baf5af6d60307e12f4eefd0cac0424fff6446f27da16f0c43f822ade8f97595ad9827b0f42f4f0ff3905e3d425091b8995a80dfa46c246c2b0f2f1752",
+          "sha256": "9282dcfc7d3a088d7d56c0c64ab1a6d9da844ba4c34feb7cd8d3bdb026c092ca",
+          "sha1": "4b0f0f66bfd7ec725b495548b4f36f6fd3994ad8",
+          "md5": "42ca39fb7605af87ab877ae5cdf5b4a7"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kover-jvm-agent-0.9.1-sources.jar",
+          "url": "kover-jvm-agent-0.9.1-sources.jar",
+          "size": 4195,
+          "sha512": "f7b94d8df377666e3acccaaf4d02203e97eabcdc0b8d55a1b013240cff9d0631c9c07d13a3f3b8715f299676ffa620019f115dee9c8f2d203bcd0179af11b2cb",
+          "sha256": "47e17e00555205d0862ec68e166e0db39f508a09ef9f0ca67cbbd1f2a1c29568",
+          "sha1": "e797ada8350b11dd03689d0ab86fd5c47d8c112d",
+          "md5": "31f4451be335e0bf64e1a4df9ff503d1"
+        }
+      ]
+    }
+  ]
+}

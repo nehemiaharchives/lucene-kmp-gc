@@ -1,0 +1,116 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../bignum/0.3.10/bignum-0.3.10.module",
+    "group": "com.ionspin.kotlin",
+    "module": "bignum",
+    "version": "0.3.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bignum-jvm-0.3.10.jar",
+          "url": "bignum-jvm-0.3.10.jar",
+          "size": 240091,
+          "sha512": "c0b8b7f9755aa6f2935f5147e9e8d71fb614d827e817d42e072211b226db2bdd51c686cd8360e49ae21ac3d4602d5ac7416a49ad2668ed4279e2f9db62eccce8",
+          "sha256": "c5c718466ef822290ed6ea2013dee788c468a993fa53f34d0e07acc8d6ef087d",
+          "sha1": "9cf1b702a0514ab97b3fda6880b42026f9caef92",
+          "md5": "bae0c0ef6e80f05e120045653518d4d5"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "2.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bignum-jvm-0.3.10.jar",
+          "url": "bignum-jvm-0.3.10.jar",
+          "size": 240091,
+          "sha512": "c0b8b7f9755aa6f2935f5147e9e8d71fb614d827e817d42e072211b226db2bdd51c686cd8360e49ae21ac3d4602d5ac7416a49ad2668ed4279e2f9db62eccce8",
+          "sha256": "c5c718466ef822290ed6ea2013dee788c468a993fa53f34d0e07acc8d6ef087d",
+          "sha1": "9cf1b702a0514ab97b3fda6880b42026f9caef92",
+          "md5": "bae0c0ef6e80f05e120045653518d4d5"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "bignum-jvm-0.3.10-sources.jar",
+          "url": "bignum-jvm-0.3.10-sources.jar",
+          "size": 90435,
+          "sha512": "6e656be3fe5f74a86f507d46dac0f584694f21a707f711e93402fe70789d54e1db700ee22eccf88747b3a184eb2b94b70c0b7d28857176e2a01b33e39d96fb12",
+          "sha256": "62f9106eea43d778d974b4ffdce9574ee30c781eff0a3b44b3247629e3715aa4",
+          "sha1": "5f896405502cdaf72061add34a015ac277db72be",
+          "md5": "5b82fe291bb8933f97aaf8125ba15630"
+        }
+      ]
+    }
+  ]
+}

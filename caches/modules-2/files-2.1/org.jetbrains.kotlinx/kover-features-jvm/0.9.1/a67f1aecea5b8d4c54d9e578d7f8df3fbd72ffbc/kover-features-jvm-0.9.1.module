@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.jetbrains.kotlinx",
+    "module": "kover-features-jvm",
+    "version": "0.9.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kover-features-jvm-0.9.1.jar",
+          "url": "kover-features-jvm-0.9.1.jar",
+          "size": 38899,
+          "sha512": "563942cf2bb5589607d549eddbea3c4883cb6d627721a87870e14074465f34d063bddee5408a75dccfd27b8a2bc0381fa15b558a4ae32a7094a96e1918ff2e3c",
+          "sha256": "7995f23cd318ce171dac2ce066afa0c6538f9a39723a3753c2739b842e5fbf41",
+          "sha1": "3f28afbd5ee43bcb52efb6ac03bbb4d850840216",
+          "md5": "38ff061e3cb8f6bcb57b34c88b14aabc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.intellij.deps",
+          "module": "intellij-coverage-reporter",
+          "version": {
+            "requires": "1.0.765"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kover-features-jvm-0.9.1.jar",
+          "url": "kover-features-jvm-0.9.1.jar",
+          "size": 38899,
+          "sha512": "563942cf2bb5589607d549eddbea3c4883cb6d627721a87870e14074465f34d063bddee5408a75dccfd27b8a2bc0381fa15b558a4ae32a7094a96e1918ff2e3c",
+          "sha256": "7995f23cd318ce171dac2ce066afa0c6538f9a39723a3753c2739b842e5fbf41",
+          "sha1": "3f28afbd5ee43bcb52efb6ac03bbb4d850840216",
+          "md5": "38ff061e3cb8f6bcb57b34c88b14aabc"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kover-features-jvm-0.9.1-javadoc.jar",
+          "url": "kover-features-jvm-0.9.1-javadoc.jar",
+          "size": 261,
+          "sha512": "6aeb8474d55665f29ce30ee9eca903139ce082a1c33b79e78af3b54dc8e440ba186b98d4a942466c52d079eb1b62a38d2dae973c15ab78e53436cd24b3af5913",
+          "sha256": "a4804fc283b535fc8db1e5ba2b106ce07e22605b428830f0c3e0c48e82427ce3",
+          "sha1": "84faf441d5f1b85895c910d7fe7349145795b044",
+          "md5": "3e2b4b965b439a270879cfa1d8008052"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kover-features-jvm-0.9.1-sources.jar",
+          "url": "kover-features-jvm-0.9.1-sources.jar",
+          "size": 10929,
+          "sha512": "21f609002d6bbf949beeca5f5a12f899342aa203bb17fcabf84a93bf43c4636d34836a7c8f06c2df58e9ab00bed150616927ee066891309364626aaa57b88f0e",
+          "sha256": "2f397c0c6396132aae5e98983ae77899ef962c91e171e5e42eebe5f1ce54d68d",
+          "sha1": "bcad81aa8802bee77925312c2c0e3efc5a708337",
+          "md5": "a5a3d5c9499c54c4d32dafc7042011d2"
+        }
+      ]
+    }
+  ]
+}
